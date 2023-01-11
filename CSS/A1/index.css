@@ -147,21 +147,44 @@ main{
 .secondary-body-posts {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    
   }
 .post {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     text-align: left;
+}
+h3{
+    font-size: 24px;
 }
 
 @media (max-width: 900px){
     .secondary-body-posts {
         grid-template-columns: auto auto;
     }
+    h3{
+        font-size: large;
+    }
+    main{
+        margin: 20px;
+    }
+    header{
+        padding: 20px;
+    }
+    .secondary-body-posts{
+        padding: 0px;
+    }
+    .post{
+        padding: 10px;
+    }
 }
 @media (max-width: 600px){
     .secondary-body-posts {
         grid-template-columns: auto;
+    }
+    h3{
+        font-size: medium;
+    }
+    main{
     }
 }
