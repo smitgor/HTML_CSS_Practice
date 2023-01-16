@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<style>
+    body {
+        background-color: white;
+        margin: auto;
+        padding: 0;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left {
+        margin-right: 10px;
+        text-align: right;
+    }
+
+    .right {
+        text-align: left;
+    }
+</style>
+
+<body>
+    <center><b>
+            <header style="background-color: gray; font-size: xx-large;">The World of Fruits</header>
+        </b>
+        <b>
+            <p style="font-size:x-large;">Fruit Survey</p>
+        </b>
+    </center>
+    <form>
+        <div class="form">
+            <div class="left">
+                <label>Name</label>
+                <br><br>
+                <label>Address</label>
+                <br><br>
+                <label>Email</label>
+                <br><br>
+                <lable style="padding-top: 0px;">How many pieces of fruit<br>do you eat per day</lable>
+                <br><br><br><br><br>
+                <p style="padding-top: 0px">My favourite fruit</p>
+                <br /><br>
+                <p>Would you like a brochure?</p>
+            </div>
+            <div class="right">
+                <input type="text" /><br><br>
+                <input type="text" /><br><br>
+                <input type="text" /><br><br>
+                <input type="radio" name="Fruit_per_day">0<br>
+                <input type="radio" name="Fruit_per_day">1<br>
+                <input type="radio" name="Fruit_per_day">2<br>
+                <input type="radio" name="Fruit_per_day">More than 2<br>
+                <br>
+                <br />
+                <select name="favourite" size="4">
+                    <option value="Apple">Apple</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                </select>
+                <br /><br />
+                <input type="checkbox" />
+                <br /><br />
+                <input type="submit" />
+            </div>
+        </diV>
+    </form>
+</body>
+
+</html>

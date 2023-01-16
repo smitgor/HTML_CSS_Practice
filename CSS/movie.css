@@ -1,0 +1,62 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: auto; 
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.one-line {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.Summary,
+.Critic,
+.User,
+.Detail,
+.trailer {
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    margin-left: 3px;
+}
+
+.extra-content {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 300px;
+    margin: 20px 0px;
+}
+
+.rating {
+    background-color: green;
+    color: white;
+    padding-top: 4rem;
+    width: 85px;
+    height: 100px;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 3rem;
+}
+
+.last-content {
+    padding-top: 5rem;
+}
